@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft yahei";
+}
+
+header {
+	height: 65px;
+	background-color: #414141;
+	background-image: url(../images/logo2.png);
+	background-repeat: no-repeat;
+	background-position: 50px -15px;
+}
+
+header ul {
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+header ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+body {
+	background-color: #DEDEDE;
+}
+
+main {
+	margin: 20px;
+}
+
+article,section,aside {
+	border: solid 1px #C4C3C3;
+	margin-bottom: 30px;
+	box-shadow: 1px 1px 1px;
+	padding: 15px;
+	background-color: #fff;
+}
+
+article h2 {
+	margin: 15px 0;
+}
+
+article h3 {
+	margin: 10px 0;
+	color: #868383;
+}
+
+article .author {
+	color: #A19F9F;
+	font-size: 10px;
+}
+
+article p {
+	line-height: 1.5;
+}
+
+article .indent {
+	text-indent: 2em;
+}
+
+article img {
+	margin: 10px 0;
+}
+
+article ul {
+	list-style-type: none;
+	margin-left: 15px;
+}
+
+article li {
+	margin-bottom: 5px;
+}
+
+article ol {
+	margin-left: 30px;
+	font-weight: 500;
+}
+
+article table {
+	width: 100%;
+}
+
+article table,th,td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+article td,th {
+	padding: 2px;
+}
+
+article th {
+	background-color: #000;
+	text-align: left;
+	color: #fff;
+}
+
+article tr:last-child {
+	background-color: #D1D1D1;
+	font-weight: bold;
+}
+
+section h2{
+	margin: 15px 0;
+}
+
+section .figure {
+	border: 1px solid #CCC;
+	width: 350px;
+	height: 250px;
+	margin: 10px;
+}
+
+section .figure figcaption {
+	text-align: center;
+	margin: 10px 0;
+}
+
+section .figure img {
+	margin-left: 25px;
+}
+
+aside h2 {
+	border-left: 4px solid #BEBEBE;
+	padding-left: 20px;
+}
+
+aside .fix {
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+aside .center {
+	position: relative;
+	left: 40%;
+	color: #868383;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+aside input[type=submit] {
+	width: 100%;
+	height: 40px;
+	background-color: #394EC6;
+	color: #fff;
+	font-size: 15px;
+	font-weight: thin;
+	border-radius: 10px;
+}
+
+footer {
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+}
