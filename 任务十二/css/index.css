@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft yahei";
+}
+
+table {
+	text-align: left;
+}
+
+table tr:nth-child(odd) {
+	background-color: #B5B2B2;
+}
+
+table th {
+	background-color: #000;
+	color: #fff;
+}
+
+table tr:nth-child(-n+4) {
+	color: red;
+}
+
+input {
+	width: 200px;
+	margin-left: 50px;
+	transition: all 1s ease-in-out 0s;
+	-webkit-transition: width 1s ease-in-out 0s;
+}
+
+input:focus {
+	width: 400px;
+	
+}
+
+.box {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	
+}
+
+ul {
+	width: 900px;
+	height: 200px;
+	transition: all 1s;
+}
+
+ul li {
+	list-style: none;
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+
+#li1 {
+	background: red;
+}
+
+#li2 {
+	background: green;
+}
+
+#li3 {
+	background: yellow;
+}
+
+#bg1:target~ul {
+	margin-left: 0px;
+}
+
+#bg2:target~ul {
+	margin-left: -300px;
+}
+
+#bg3:target~ul {
+	margin-left: -600px;
+}
+
+
+
+
