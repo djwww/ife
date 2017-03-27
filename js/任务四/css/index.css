@@ -1,0 +1,9 @@
+li {
+	display: block;
+	float: left;
+	background: red;
+	margin-left: 5px;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+}
