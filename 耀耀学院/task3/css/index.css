@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+.student {
+	display: none;
+}
+
+.no-student {
+	display: none;
+}
+
+#college1 {
+	width: 120px;
+	display: inline-block;
+}
+
+#college2 {
+	width: 120px;
+	display: none;
+}
+
+#college3 {
+	width: 120px;
+	display: none;
+}

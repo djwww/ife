@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: '黑体';
+	box-sizing: border-box;
+}
+
+.outer {
+	margin: 10px 0 0 10px;
+}
+
+.left,.right {
+	display: inline-block;
+	
+}
+
+.left {
+	margin-top: 5px;
+}
+
+.right {
+	vertical-align: top;
+}
+
+.text input[type="text"] {
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid #BABABA;
+	outline: none;
+}
+
+.text input[value="验证"] {
+	background-color: #5C8AE1;
+	color: #fff;
+	height: 30px;
+	width: 50px;
+	border-radius: 5px;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+}
+
+#remind {
+	margin-top: 5px;
+	color: #BABABA;
+	font-size: 10px;
+}

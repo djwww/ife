@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Microsoft Yahei';
+	outline: none;
+}
+
+.left {
+	display: inline-block;
+	width: 300px;
+	text-align: right;
+	margin-right: 100px;
+}
+
+.tip {
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	width: 100%;
+	text-indent: 400px;
+	color: #C9C9C9;
+	font-size: 15px;
+}
+
+.button {
+	margin-left: 630px;
+	color: #fff;
+	font-size: 15px;
+	background: #2F7CA3;
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+	cursor: pointer;
+}
+
+input[type="text"],input[type="password"] {
+	height: 30px;
+	width: 300px;
+	border-radius: 5px;
+	border: 2px solid #C9C9C9;
+	text-indent: 10px;
+}

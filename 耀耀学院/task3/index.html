@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task3</title>
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<form action="#" method="post">
+		<input type="radio" value="student" name="profession" id="student" /><label for="student">在校生</label>
+		<input type="radio" value="no-student" name="profession" id="no-student" /><label for="no-student">非在校生</label>
+		<div class="student" id="a">
+			<span>学校</span>
+			<select name="city" id="city">
+				<option value="北京" id="beijing">北京</option>
+				<option value="上海" id="shanghai">上海</option>
+				<option value="南京" id="nanjing">南京</option>
+			</select>
+			<select name="college" id="college1">
+				<option value="">北京大学</option>
+				<option value="">清华大学</option>
+			</select>
+			<select name="college" id="college2">
+				<option value="">复旦大学</option>
+				<option value="">上海交通大学</option>
+			</select>
+			<select name="college" id="college3">
+				<option value="">南京大学</option>
+				<option value="">河海大学</option>
+			</select>
+		</div>
+		<div class="no-student" id="b">
+			<span>就业单位</span> <input type="text" />
+		</div>
+	</form>
+	<script src="js/index.js"></script>
+</body>
+</html>
