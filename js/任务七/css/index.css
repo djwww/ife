@@ -1,0 +1,15 @@
+#aul {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#aul div {
+	width: 15px;
+	background: red;
+	text-align: center;
+	cursor: pointer;
+	border:1px solid #fff;
+}
+
