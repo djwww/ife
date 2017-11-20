@@ -1,0 +1,19 @@
+#root {
+	height: 400px;
+	width: 80%;
+}
+
+div {
+	border: 1px solid #000;
+	display: flex;
+	flex-flow: nowrap row;
+	justify-content: space-around;
+	align-items: center;
+	width: 40%;
+	height: 80%;
+}
+
+input {
+	margin-left: 10px;
+	margin-top: 20px;
+}
