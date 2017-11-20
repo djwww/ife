@@ -1,0 +1,20 @@
+#tagList,#intList{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+
+#tagList div,#intList div {
+	background: #77BAFC;
+	margin-left: 5px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+textarea {
+	resize: none;
+}
+
